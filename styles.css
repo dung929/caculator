@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://img.pikbest.com/ai/illus_our/20230418/64e0e89c52dec903ce07bb1821b4bcc8.jpg!w700wp');
+}
+
+.calculator {
+    width: 250px;
+    margin: 250px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
